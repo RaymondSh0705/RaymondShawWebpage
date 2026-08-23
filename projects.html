@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <meta name="description" content="Selected projects, experiments, and open source work." />
+    <link rel="icon" href="assets/img/favicon.svg" />
+
+    <!-- Inline and before the stylesheet so the saved theme is set before first paint. -->
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem("portfolio-theme");
+          var prefersLight =
+            window.matchMedia &&
+            window.matchMedia("(prefers-color-scheme: light)").matches;
+          document.documentElement.setAttribute(
+            "data-theme",
+            saved || (prefersLight ? "light" : "dark")
+          );
+        } catch (err) {}
+      })();
+    </script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="backdrop" aria-hidden="true">
+      <div class="glow glow--one"></div>
+      <div class="glow glow--two"></div>
+      <div class="grid-lines"></div>
+    </div>
+
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="brand" href="index.html">
+          <span class="brand__mark" data-brand-initials>—</span>
+          <span class="brand__name" data-site-name>Portfolio</span>
+        </a>
+
+        <nav class="nav" aria-label="Main">
+          <a class="nav__link" href="index.html">About</a>
+          <a class="nav__link is-current" href="projects.html">Projects</a>
+        </nav>
+
+        <div class="header-actions">
+          <ul class="social social--header" data-socials></ul>
+          <button
+            class="theme-toggle"
+            type="button"
+            data-theme-toggle
+            aria-label="Toggle color theme"
+          >
+            <svg class="icon icon--sun" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="4.2" />
+              <path d="M12 2v2.6M12 19.4V22M2 12h2.6M19.4 12H22M4.9 4.9l1.9 1.9M17.2 17.2l1.9 1.9M19.1 4.9l-1.9 1.9M6.8 17.2l-1.9 1.9" />
+            </svg>
+            <svg class="icon icon--moon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M20 14.2A8.2 8.2 0 1 1 9.8 4a6.6 6.6 0 0 0 10.2 10.2Z" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="section page-head">
+        <div class="container">
+          <div class="reveal">
+            <p class="section__label">Portfolio</p>
+            <h1 class="page-head__title">Projects</h1>
+            <p class="page-head__lead">
+              A collection of things I've designed, built, and shipped. Each card links
+              straight to the live site or the source.
+            </p>
+          </div>
+
+          <div class="filters reveal" data-delay="1" data-filters role="group" aria-label="Filter projects by tag"></div>
+        </div>
+      </section>
+
+      <section class="section section--tight">
+        <div class="container">
+          <div class="card-grid" data-projects-grid></div>
+          <p class="empty-state" data-empty hidden>No projects match that filter.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <p class="site-footer__copy">
+          © <span data-year></span> <span data-site-name>Your Name</span>
+        </p>
+        <ul class="social" data-socials></ul>
+      </div>
+    </footer>
+
+    <script src="data/content.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
