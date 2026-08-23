@@ -13,7 +13,7 @@ const SITE = {
   email: "rxs87@my.utexas.edu",
   // Optional: path to a PDF in this repo, or "" to hide the resume button.
   resume: "assets/img/Raymond Shaw Resume.docx.pdf",
-  avatar: "assets/img/avatar.svg",
+  avatar: "assets/img/photo-1536098561742-ca998e48cbcc.avif",
 
   // The big intro paragraph(s) on the About page. Each string is a paragraph.
   about: [
