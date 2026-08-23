@@ -17,8 +17,8 @@ const SITE = {
 
   // The big intro paragraph(s) on the About page. Each string is a paragraph.
   about: [
-    "I build things for the web. My focus is on clean architecture, fast interfaces, and tools that get out of the way of the people using them.",
-    "Right now I'm working on data-heavy applications and exploring how far you can push a static site before you actually need a backend. Outside of work I read too much science fiction and take photos of buildings.",
+    "Undergraduate Computer Science student at the University of Texas at Austin. I have a strong interest in AI/ML, data analysis, and web development. I enjoy building projects that combine these areas to solve real-world problems.",
+    "Right now I'm interested in exploring modern LLM architectures and applying AI models to assist in solution development. Outside of work I study Japanese and watch too much geopolictical documentaries.",
   ],
 
   // Short punchy lines under your name on the About page.
@@ -85,47 +85,70 @@ const PROJECTS = [
   {
     title: "Nano-Chatbot LLM",
     summary:
-      "Complete LLM Chatbot pipelinewith custom prompt engineering. Utilizes attention, rotary embeddings, and KV Cache for efficient inference. | Uses: PyTorch, Hugging Face, ",
-    image: "assets/img/placeholder-1.svg",
+      "Complete LLM Chatbot pipelinewith custom prompt engineering. Utilizes attention, rotary embeddings, and KV Cache for efficient inference. | Uses: PyTorch, Hugging Face, Rustbpe",
+    image: "assets/img/Screenshot 2026-08-23 at 12.40.47 PM.png",
     tags: ["AI"],
     year: "2026",
     featured: true,
     links: [
-      { label: "Repo", url: "https://github.com/yourusername/project-one" },
+      { label: "Repo", url: "https://github.com/RaymondSh0705/NanochatProject" },
     ],
   },
   {
     title: "Colab Notebook AI Model Projects",
     summary:
       "Multiple AI Model Projects in Colab Notebooks. Solves unique business cases through AI integration,| Uses: PyTorch, Scikit-learn, Seaborn, Hugging Face, Transformers, etc.",
-    image: "assets/img/placeholder-4.svg",
+    image: "assets/img/Screenshot 2026-08-23 at 12.20.53 PM.png",
     tags: ["AI"],
     year: "2026",
-    links: [{ label: "Repo", url: "https://example.com" }],
+    links: [{ label: "Repo", url: "https://github.com/RaymondSh0705/AIMLColabNotebookProjects" }],
+  },
+  {
+    title: "Lyric Searcher",
+    summary:
+      "Webapp that utilizes a REST API to search for lyrics and display results. | Uses: REST API, Next.js",
+    image: "assets/img/Screenshot 2026-08-23 at 12.37.24 PM.png",
+    tags: ["Web Development"],
+    year: "2026",
+    links: [
+      { label: "Repo", url: "https://github.com/RaymondSh0705/lyric-searcher" },
+    ],
   },
   {
     title: "HackHackGoose AI Game",
     summary:
       "Web-based Game with AI creating custom, unique game pathway. Prompt engineering and custom player infromation JSON for structured gameplay.| Uses: GeminiAPI, Webscokets, FastAPI",
-    image: "assets/img/placeholder-3.svg",
+    image: "assets/img/Screenshot 2026-08-23 at 12.30.40 PM.png",
     tags: ["AI", "Web Development"],
     year: "2026",
     featured: true,
     links: [
-      { label: "Repo", url: "https://github.com/yourusername/project-three" },
+      { label: "Repo", url: "https://github.com/briank1727/hackhackgoose-ugly-ducks" },
     ],
   },
   {
     title: "Japanese Word Bomb Game",
     summary:
       "Custom web game. Utilizes private multiplayer lobby system and custom dictionary/word stem generation | Uses: Pydantic, FastAPI, Websockets",
-    image: "assets/img/placeholder-2.svg",
+    image: "assets/img/Screenshot 2026-08-23 at 12.33.05 PM.png",
     tags: ["Web Development"],
     year: "2025",
     featured: true,
     links: [
-      { label: "Repo", url: "https://github.com/yourusername/project-two" },
-      { label: "Link", url: "https://word-bomb-game.vercel.app/"}
+      { label: "Repo", url: "https://github.com/RaymondSh0705/Japanese-Word-Bomb" },
+      { label: "Link", url: "japanese-word-bomb.onrender.com/" }
+    ],
+  },
+  {
+    title: "Rhythm Quest Web Game",
+    summary:
+      "Rhythm-based web game. Custom background, music, and sprites | Uses: Unity",
+    image: "assets/img/Screenshot 2026-08-23 at 12.34.07 PM.png",
+    tags: ["Web Development"],
+    year: "2025",
+    links: [
+      { label: "Repo", url: "https://github.com/vishalsund/rhythm-quest" },
+      { label: "Link", url: "https://vishalsund.github.io/rhythm-quest/" }
     ],
   },
 ];

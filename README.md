@@ -57,37 +57,3 @@ Social icons available for `SITE.socials`: `github`, `linkedin`, `mail`, `x`,
 The colors are CSS variables at the top of `assets/css/styles.css`. Changing
 `--accent` and `--accent-2` restyles the whole site; the `[data-theme="light"]`
 block below controls light mode.
-
-## Previewing locally
-
-Open `index.html` in a browser, or serve the folder to avoid any file-path
-quirks:
-
-```bash
-python3 -m http.server 8000
-# then visit http://localhost:8000
-```
-
-## Deploying to GitHub Pages
-
-1. Create a repo on GitHub. Naming it `<your-username>.github.io` gets you the
-   root domain; any other name serves the site at `/<repo-name>/`.
-2. Push this folder:
-
-```bash
-git init
-git add .
-git commit -m "Add portfolio site"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<repo>.git
-git push -u origin main
-```
-
-3. In the repo, go to **Settings → Pages**, set **Source** to "Deploy from a
-   branch", pick `main` and `/ (root)`, and save.
-4. The site goes live at `https://<your-username>.github.io/<repo>/` within a
-   minute or two.
-
-Every later `git push` to `main` redeploys automatically. Since all paths in the
-HTML are relative, the site works at the root domain and in a subfolder without
-any changes.
