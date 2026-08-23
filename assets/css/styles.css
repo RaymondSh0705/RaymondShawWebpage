@@ -5,8 +5,8 @@
    ========================================================================== */
 
 :root {
-  --accent: #0a0b10;
-  --accent-2: #0a0b10;
+  --accent: #6c8cff;
+  --accent-2: #b06cff;
 
   --bg: #0a0b10;
   --bg-elev: rgba(255, 255, 255, 0.028);
@@ -183,7 +183,7 @@ button {
   min-height: 380px;
   top: -14vw;
   right: -8vw;
-  background: radial-gradient(circle, var(--accent) 0%, transparent 68%);
+  background: radial-gradient(circle, var(--bg) 0%, transparent 68%);
 }
 
 .glow--two {
@@ -193,7 +193,7 @@ button {
   min-height: 320px;
   top: 46vh;
   left: -14vw;
-  background: radial-gradient(circle, var(--accent-2) 0%, transparent 68%);
+  background: radial-gradient(circle, var(--bg) 0%, transparent 68%);
 }
 
 .grid-lines {
