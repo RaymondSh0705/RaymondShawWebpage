@@ -49,7 +49,7 @@ const SITE = {
     {
       period: "2025 - 2026",
       title: "UT Austin PG AI/ML Course",
-      org: "UT Austin McCombs/Great Learnig",
+      org: "UT Austin McCombs/Great Learning",
       detail: "AI/ML Fundamentals + Applications | Real-World Business Case Projects",
     },
     {
@@ -85,7 +85,7 @@ const PROJECTS = [
   {
     title: "Nano-Chatbot LLM",
     summary:
-      "Complete LLM Chatbot pipelinewith custom prompt engineering. Utilizes attention, rotary embeddings, and KV Cache for efficient inference. | Uses: PyTorch, Hugging Face, Rustbpe",
+      "Complete LLM Chatbot pipeline with custom prompt engineering. Utilizes attention, rotary embeddings, and KV Cache for efficient inference.\n-Uses: PyTorch, Hugging Face, Rustbpe\n-Role: Sole Programmer",
     image: "assets/img/Screenshot 2026-08-23 at 12.40.47 PM.png",
     tags: ["AI"],
     year: "2026",
@@ -97,7 +97,7 @@ const PROJECTS = [
   {
     title: "Colab Notebook AI Model Projects",
     summary:
-      "Multiple AI Model Projects in Colab Notebooks. Solves unique business cases through AI integration,| Uses: PyTorch, Scikit-learn, Seaborn, Hugging Face, Transformers, etc.",
+      "Multiple AI Model Projects in Colab Notebooks. Solves unique business cases through AI integration. \n-Uses: PyTorch, Scikit-learn, Seaborn, Hugging Face, Transformers, etc.\n-Role: Sole Programmer/Learner",
     image: "assets/img/Screenshot 2026-08-23 at 12.20.53 PM.png",
     tags: ["AI"],
     year: "2026",
@@ -106,7 +106,7 @@ const PROJECTS = [
   {
     title: "Lyric Searcher",
     summary:
-      "Webapp that utilizes a REST API to search for lyrics and display results. | Uses: REST API, Next.js",
+      "Web app that utilizes a REST API to search for lyrics and display results.\n-Uses: REST API, Next.js\n-Role: Sole Programmer",
     image: "assets/img/Screenshot 2026-08-23 at 12.37.24 PM.png",
     tags: ["Web Development"],
     year: "2026",
@@ -117,7 +117,7 @@ const PROJECTS = [
   {
     title: "HackHackGoose AI Game",
     summary:
-      "Web-based Game with AI creating custom, unique game pathway. Prompt engineering and custom player infromation JSON for structured gameplay.| Uses: GeminiAPI, Webscokets, FastAPI",
+      "Web-based Game with AI creating custom, unique game pathways. Prompt engineering and custom player information JSON for structured gameplay.\n-Uses: GeminiAPI, WebSockets, FastAPI\n-Role: Programmer",
     image: "assets/img/Screenshot 2026-08-23 at 12.30.40 PM.png",
     tags: ["AI", "Web Development"],
     year: "2026",
@@ -129,7 +129,7 @@ const PROJECTS = [
   {
     title: "Japanese Word Bomb Game",
     summary:
-      "Custom web game. Utilizes private multiplayer lobby system and custom dictionary/word stem generation | Uses: Pydantic, FastAPI, Websockets",
+      "Custom web game. Utilizes a private multiplayer lobby system and custom dictionary/word-stem generation.\n-Uses: Pydantic, FastAPI, Websockets\n-Role: Sole Programmer",
     image: "assets/img/Screenshot 2026-08-23 at 12.33.05 PM.png",
     tags: ["Web Development"],
     year: "2025",
@@ -142,7 +142,7 @@ const PROJECTS = [
   {
     title: "Rhythm Quest Web Game",
     summary:
-      "Rhythm-based web game. Custom background, music, and sprites | Uses: Unity",
+      "Rhythm-based web game. Custom background, music, and sprites.\n-Uses: Unity\n-Role: Programmer, Artist",
     image: "assets/img/Screenshot 2026-08-23 at 12.34.07 PM.png",
     tags: ["Web Development"],
     year: "2025",
