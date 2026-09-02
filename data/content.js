@@ -112,6 +112,7 @@ const PROJECTS = [
     year: "2026",
     links: [
       { label: "Repo", url: "https://github.com/RaymondSh0705/lyric-searcher" },
+      { label: "Link", url: "https://lyric-searcher-delta.vercel.app/" }
     ],
   },
   {
@@ -136,7 +137,7 @@ const PROJECTS = [
     featured: true,
     links: [
       { label: "Repo", url: "https://github.com/RaymondSh0705/Japanese-Word-Bomb" },
-      { label: "Link", url: "japanese-word-bomb.onrender.com/" }
+      { label: "Link", url: "https://japanese-word-bomb.onrender.com/" }
     ],
   },
   {

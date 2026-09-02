@@ -871,6 +871,7 @@ button {
 .card__summary {
   color: var(--text-muted);
   font-size: 0.93rem;
+  white-space: pre-line;
 }
 
 .card__tags {
