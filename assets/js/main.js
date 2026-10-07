@@ -109,7 +109,7 @@
   }
 
   if (!root.getAttribute("data-theme")) {
-    root.setAttribute("data-theme", "dark");
+    root.setAttribute("data-theme", "light");
   }
 
   $$("[data-theme-toggle]").forEach((btn) => {
@@ -204,7 +204,7 @@
             <p class="timeline__period">${escapeHtml(item.period)}</p>
             <h3 class="timeline__title">
               ${escapeHtml(item.title)}
-              ${item.org ? `<span class="timeline__org"> · ${escapeHtml(item.org)}</span>` : ""}
+              ${item.org ? `<span class="timeline__org">${escapeHtml(item.org)}</span>` : ""}
             </h3>
             ${item.detail ? `<p class="timeline__detail">${escapeHtml(item.detail)}</p>` : ""}
           </li>`
@@ -272,7 +272,7 @@
       )
       .join("");
 
-    const tags = (project.tags || [])
+    const tags = (project.stack || project.tags || [])
       .map((tag) => `<li class="tag">${escapeHtml(tag)}</li>`)
       .join("");
 

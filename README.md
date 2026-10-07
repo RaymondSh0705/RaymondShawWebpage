@@ -1,17 +1,13 @@
-# Personal Portfolio
+# Raymond Shaw · Personal Portfolio
 
-A static, dependency-free portfolio site: two pages (About + Projects), a dark/light
-theme, and all content in a single editable file. No build step, no npm install —
-it runs anywhere that serves files, including GitHub Pages.
+A responsive, dependency-free portfolio with About and Projects pages, a light/dark theme, and project filters. Serve the files directly; no build or npm install is required.
 
-```
-.
-├── index.html          About page
-├── projects.html       Projects page
-├── data/content.js     ← everything you edit lives here
-├── assets/
-│   ├── css/styles.css  styling and theme colors
-│   ├── js/main.js      renders content.js into the pages
-│   └── img/            your photo and project images
-└── .nojekyll           tells GitHub Pages to serve files as-is
-```
+For a local preview, run `python3 -m http.server 8000` and open `http://localhost:8000`.
+
+- `data/content.js` holds the biography, contact links, skills, experience, and projects. Project `tags` control filtering; optional `stack` entries describe the technologies shown on cards.
+- `index.html` and `projects.html` define the page structure and section copy.
+- `assets/css/styles.css` contains the responsive layout, typography, and theme colors.
+- `assets/js/main.js` renders the content and handles filtering and theme persistence.
+- `assets/img/raymond-shaw-resume.pdf` is the current downloadable résumé.
+
+The default theme is light. A visitor's explicit theme choice persists across both pages. Fonts use Google Fonts with local system fallbacks.
