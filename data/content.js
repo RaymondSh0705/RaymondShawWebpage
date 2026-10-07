@@ -6,7 +6,7 @@ const SITE = {
   "shortName": "Raymond Shaw",
   "location": "Austin, TX",
   "email": "raymondsh0705@gmail.com",
-  "resume": "assets/img/raymond-shaw-resume.pdf",
+  "resume": "assets/img/Raymond Shaw Resume.docx.pdf",
   "about": [
     "I’m a Computer Science Undergraduate at the University of Texas at Austin, with minors in Economics and Japanese. I’m interested in how machine learning and well-designed software can solve practical problems.",
     "At AMRL, I research model integration for socially aware robot navigation. Previously, I built computer vision and data tools at MetOX International. My projects range from training a small language model to creating real-time multiplayer games.",
