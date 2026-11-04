@@ -230,7 +230,7 @@ const PROJECTS = [
       },
       {
         "label": "Application",
-        "url": "https://japanese-word-bomb.onrender.com/"
+        "url": "https://japanese-word-bomb-6z6m2y28z-raymondsh0705s-projects.vercel.app/"
       }
     ],
     "stack": [
